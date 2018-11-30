@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="public/style.css" />
+    <title>URL Shortener</title>
+  </head>
+  <body>
+    <div class="top"><h2>URL Shortener Microservice</h2></div>
+    <div class="middle">
+      <div class="howItWorks">
+        <h4>How it works:</h4>
+        <p>1.Put an valid URL in the input, and send it.</p>
+        <p>
+          2.After a short time you will get a shorter url, to acces your
+          original one.
+        </p>
+        <p>3.Acces the shorter url, to go to your page.</p>
+      </div>
+    </div>
+    <div class="bottom">
+      <form id="urlShortenerForm">
+        <input id="urlInput" type="text" placeholder="Link to be generated" autocomplete="off"/>
+        <input id="urlSubmit" type="submit" value="Generate" />
+      </form>
+      <div class="info-box"></div>
+    </div>
+    <script type="text/javascript" src="public/script.js"></script>
+  </body>
+</html>
